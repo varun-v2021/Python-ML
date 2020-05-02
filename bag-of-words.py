@@ -48,6 +48,8 @@ def tokenize(sentences):
     words = sorted(list(set(words)))
     # ['and', 'arrived', 'at', 'bus', 'but', 'early', 'for', 'i', 'joe', 'late', 'looked', 'mary', 'noon', 'samantha', 'station', 'the', 'took', 'train', 'until', 'waited', 'was']
     return words
+# Above implementation in nltk
+#  word = nltk.word_tokenize(pattern)
 
 # STEP 3
 # Build vocabulary and generate vectors
